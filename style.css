@@ -8,6 +8,7 @@ body {
 }
 
 
+
 .container {
     width: 1140px;
     max-width: 100%;
@@ -119,36 +120,33 @@ body {
 }
 
 .header__anchor {
-    padding-bottom: 135px;
+    padding-bottom: 180px;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav__section {
     background-color: #5474fd;
-    padding: 30px 0;
+    padding: 27px 0;
 }
 
 .nav__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Josefin Sans';
+}
+
+.nav__logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav__container, li>a {
+    color: #fff;
+}
+
+.nav__list {
+    display: flex;
+    gap: 35px;
 }
