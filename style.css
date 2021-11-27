@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+
+.header {
+    background-image: url(img/bg01.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 266px;
+    text-align: center;
+}
+
+
+
+.header__heading {
+    font-size: 48px;
+    font-family: 'Josefin Sans';
+    color: rgb(255, 255, 255);
+    margin-bottom: 7px;
+    letter-spacing: 3px
+}
+
+.header__text {
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    letter-spacing: 7px;
+    margin-bottom: 55px;
+
+}
+
+.header__search {
+    position: relative;
+    margin-bottom: 121px;
+}
+
+.search {
+    width: 650px;
+    min-height: 60px;
+    position: relative;
+    padding-left: 128px;
+    font-family: 'Josefin Sans';
+    letter-spacing: 2px;
+    color: #c2c2c2;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c2c2c2;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c2c2c2;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c2c2c2;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #c2c2c2;
+}
+
+
+.btn {
+    fill: #fff;
+    background-color: #5474fd;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Aleo';
+    position: absolute;
+    padding: 21px 54px 19px 29px;
+    left: 734px;
+    top: 2px;
+    letter-spacing: 1px;
+
+}
+
+.btn__svg {
+    position: absolute;
+    left: 105px;
+    top: 20px;
+}
+
+.header__anchor>a {
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+
+
+}
+
+.header__arrow {
+    fill: #fff;
+}
+
+.header__anchor {
+    padding-bottom: 135px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav__section {
+    background-color: #5474fd;
+    padding: 30px 0;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
