@@ -48,18 +48,22 @@ body {
 }
 
 .header__search {
-    position: relative;
+    /* position: relative; */
     margin-bottom: 121px;
+    position: relative;
+
+
 }
 
 .search {
-    width: 650px;
+
+    min-width: 650px;
     min-height: 60px;
-    position: relative;
     padding-left: 128px;
     font-family: 'Josefin Sans';
     letter-spacing: 2px;
     color: #c2c2c2;
+
 }
 
 ::-webkit-input-placeholder {
@@ -94,6 +98,7 @@ body {
     left: 734px;
     top: 2px;
     letter-spacing: 1px;
+
 
 }
 
@@ -213,6 +218,12 @@ body {
     text-align: center;
     padding: 17px 46px;
     background-color: #496bfe;
+
+}
+
+.main__btn a:hover {
+    background-color: #2c52f4;
+    opacity: none;
 
 }
 
