@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+
+}
+
+.header {
+    background-image: url(img/bg01.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 266px;
+    text-align: center;
+}
+
+
+
+.header__heading {
+    font-size: 48px;
+    font-family: 'Josefin Sans';
+    color: rgb(255, 255, 255);
+    margin-bottom: 7px;
+    letter-spacing: 3px
+}
+
+.header__text {
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    letter-spacing: 7px;
+    margin-bottom: 55px;
+
+}
+
+.header__search {
+    /* position: relative; */
+    margin-bottom: 121px;
+    position: relative;
+
+
+}
+
+.search {
+
+    min-width: 650px;
+    min-height: 60px;
+    padding-left: 128px;
+    font-family: 'Josefin Sans';
+    letter-spacing: 2px;
+    color: #c2c2c2;
+
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c2c2c2;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c2c2c2;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c2c2c2;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #c2c2c2;
+}
+
+
+.btn {
+    fill: #fff;
+    background-color: #5474fd;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Aleo';
+    position: absolute;
+    padding: 21px 54px 19px 29px;
+    left: 734px;
+    top: 2px;
+    letter-spacing: 1px;
+
+
+}
+
+
+.btn:hover:active {
+    background-color: #fff;
+    color: #5474fd;
+    fill: currentColor;
+    transition: 0.1s;
+}
+
+.btn__svg {
+    position: absolute;
+    left: 105px;
+    top: 20px;
+}
+
+.header__anchor>a {
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 20px;
+
+
+}
+
+.header__arrow {
+    fill: #fff;
+}
+
+.header__anchor a:hover {
+    color: black;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.header__anchor {
+    padding-bottom: 180px;
+
+}
+
+
+.nav__section {
+    background-color: #5474fd;
+    padding: 27px 0;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Josefin Sans';
+}
+
+.nav__logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.nav__container, li>a {
+    color: #fff;
+}
+
+.nav__list li>a:hover {
+    border-bottom: #fff solid 1px;
+
+}
+
+.nav__list {
+    display: flex;
+    gap: 35px;
+}
+
+
+.main__wrapper01 {
+    background-image: url(img/bg02.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    background-size: cover;
+}
+
+.main__conteiner01 {
+    display: flex;
+    padding-top: 122px;
+    justify-content: space-between;
+
+
+}
+
+.main__heading {
+    margin-top: 84px;
+    width: 530px;
+    padding-bottom: 211px;
+}
+
+.main__heading>h3 {
+    font-size: 36px;
+    font-family: 'Aleo';
+    line-height: 0.722;
+    padding-bottom: 63px;
+
+}
+
+.main__text {
+    font-size: 17px;
+    line-height: 1.625;
+    color: rgb(232, 232, 232);
+    padding-bottom: 47px;
+}
+
+
+
+.main__btn>a {
+    font-size: 16px;
+    font-family: 'Aleo';
+    color: rgb(255, 255, 255);
+    line-height: 1.625;
+    text-align: center;
+    padding: 17px 46px;
+    background-color: #496bfe;
+
+}
+
+.main__btn a:hover {
+    background-color: #2c52f4;
+    opacity: none;
+
+}
+
+.main__img {
+    position: relative;
+}
+
+.main__img01 {
+    position: absolute;
+    right: 124px;
+    bottom: 380px;
+
+}
+
+.main__img02 {
+    position: absolute;
+    bottom: 155px;
+    right: 0px;
+}
+
+.main__wrapper02 {
+    background-image: url(img/bg03.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'Josefin Sans';
+    background-size: cover;
+    position: relative;
+}
+
+.main__conteiner02 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dotter {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-width: 1px;
+    stroke-dasharray: 0.001 5;
+    fill-rule: evenodd;
+    opacity: 0.5;
+    position: absolute;
+    left: 558px;
+    bottom: 227px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Aleo';
+    padding: 105px 0;
+    font-size: 36px;
+    line-height: 2.722;
+    font-size: 35px;
+
+}
+
+.search_place {
+    fill: #5474fd;
+}
+
+.select_place {
+    fill: #ff6363;
+}
+
+.enjoy {
+    fill: #00a2ff;
+}
+
+.main__wrapper03 {
+    background-image: url(img/bg04.png);
+    background-size: cover;
+    background-position: top;
+    padding: 232px 0 100px;
+
+}
+
+.main__block {
+    background-color: rgb(35, 35, 35);
+    opacity: 0.902;
+    max-width: 541px;
+    font-family: 'Josefin Sans';
+    color: rgb(232, 232, 232);
+    line-height: 24px;
+    line-height: 24px;
+    padding: 51px 33px;
+
+}
+
+.main__country {
+    font-size: 20px;
+    line-height: 1.3;
+
+}
+
+.main__text {
+    font-size: 16px;
+    line-height: 1.625;
+
+}
+
+.main__block h3 {
+    font-size: 20px;
+    line-height: 1.3;
+
+
+}
+
+.main__wrapper04 {
+    background-image: url(img/bg05.png);
+    background-size: cover;
+    background-position: top;
+    padding: 232px 0 100px;
+}
+
+.main__container04 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main__wrapper05 {
+    background-image: url(img/bg06.png);
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.main__banner {
+    font-size: 36px;
+    font-family: 'Aleo';
+    line-height: 0.722;
+    text-align: center;
+    padding: 119px 0 98px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 202px;
+
+}
+
+.text {
+    background-color: #333333;
+    padding: 49px 56px 51px 60px;
+    font-family: 'Josefin Sans';
+
+}
+
+.text>p {
+    font-size: 15px;
+    line-height: 29px;
+    ;
+    letter-spacing: 0px;
+    font-weight: 100;
+}
+
+.text>h3 {
+    font-size: 20px;
+    line-height: 1.3;
+
+}
+
+.fa-quote-left {
+    color: #5474fd;
+    font-size: 20px;
+    line-height: 0.722;
+    margin-right: 2px;
+}
+
+.Sam_Sumon {
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    line-height: 1.3;
+    text-align: left;
+    position: absolute;
+    left: 849.16px;
+    top: 3549.5px;
+    z-index: 21;
+}
+
+
+.footer__block {
+    background-color: #232323;
+    text-align: center;
+    color: rgb(254, 254, 254);
+    padding: 121px 0 52px;
+    font-family: 'Josefin Sans';
+
+
+
+}
+
+.footer__conteiner {
+    width: 168px;
+    margin: 0 auto;
+
+}
+
+.footer__conteiner>h3 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 9px;
+
+}
+
+.footer__conteiner>p {
+    font-size: 17px;
+    padding-bottom: 27px;
+}
+
+.footer__list li>a:hover {
+    color: #5474fd;
+
+}
+
+
+.footer__list {
+    display: flex;
+    justify-content: space-around;
+    gap: 23px;
+}
